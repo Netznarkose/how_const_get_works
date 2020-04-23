@@ -1,8 +1,7 @@
 require 'minitest/autorun'
-require 'pry-byebug'
 
-Dog = Struct.new(:name, :hight)
-Pony = Struct.new(:name, :hight)
+Dog = Struct.new(:name, :height)
+Pony = Struct.new(:name, :height)
 
 class DynamicClassInitialisationTest < Minitest::Test
   def dynamic_class_initializer(animal)
